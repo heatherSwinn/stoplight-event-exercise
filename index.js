@@ -55,6 +55,9 @@
 
       });
 
+
+
+      //add mouseenter and mouseleave event listeners to each button
       stopButton.addEventListener('mouseenter', function () {
         console.log('Entered stop button', this);
       });
@@ -79,5 +82,4 @@
         console.log('Left go button', this);
       });
     
-  // YOUR CODE HERE
 })();
